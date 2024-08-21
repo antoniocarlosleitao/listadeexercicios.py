@@ -8,17 +8,22 @@ abastecimentos é o mesmo."""
 
 #entrada
 comprimento = float(input("Comprimento da pista (em metros) "))
-nvoltas = int(input("numero total de voltas"))
-abastecimento = int(input("numero de abastecimentos desejados"))
-consumo = float(input("consumo de combustível do carro (km/l)"))
+nvoltas = int(input("numero total de voltas "))
+abastecimento = int(input("numero de abastecimentos desejados "))
+consumo = float(input("consumo de combustível do carro (km/l) "))
 
 
 #processamento
-kmTotal = (comprimento / 1000) * nvoltas
-consumoTotal = kmTotal / consumo 
-litros = consumoTotal / abastecimento
+#kmTotal = (comprimento / 1000) * nvoltas
+# consumoTotal = kmTotal / consumo 
+#litros = consumoTotal / abastecimento
+
+def calculoLitros():
+    kmTotal = (comprimento / 1000) * nvoltas
+    consumoTotal = kmTotal / consumo 
+    return consumoTotal / abastecimento
 
 #saída
-print("o número mínimo de litros necessários até o primeiro reabastecimento", litros)
+print("o número mínimo de litros necessários até o primeiro reabastecimento", calculoLitros())
 
 
