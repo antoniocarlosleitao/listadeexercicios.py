@@ -2,7 +2,7 @@
 Considere o valor zero como positivo.'''
 
 #entrada
-valor = int(input("Escreva um valor: "))
+valor = float(input("Escreva um valor: ").replace(",","."))
 
 #processamento
 resposta = ""

@@ -10,7 +10,7 @@ nt2 = float(input("Digite a segunda nota:"))
 ms = (nt1 + nt2)/2 #ms = média semestral
 resposta = ""
 if (ms >= 6.0):
-    resposta = "Parabéns você foi aprovado!"
+    resposta = "Parabéns você foi APROVADO!"
 else:
     resposta = "Você não foi aprovado."
 
