@@ -3,15 +3,16 @@ compradas pelo menos doze. Escreva um programa que leia o número de maçãs com
 escreva o valor total da compra.'''
 
 #entrada
-nmacas = ("Quantas maças você esta comprando? ")
+nmacas = int(input("Quantas maças há na cesta? "))
 vmacas12 = 0.25
 vmacas11 = 0.30
 
 #processamento
-if nmacas >= 12 == (nmacas * vmacas12)
-    resposta = 1
-
-
+if nmacas >= 12:
+    resposta = (nmacas * vmacas12)
+else:
+    resposta = (nmacas * vmacas11)
 
 
 #saída
+print("O valor a pagar será de R$", resposta,)
