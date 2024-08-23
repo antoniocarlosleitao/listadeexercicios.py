@@ -12,7 +12,6 @@ nvoltas = int(input("numero total de voltas "))
 abastecimento = int(input("numero de abastecimentos desejados "))
 consumo = float(input("consumo de combustível do carro (km/l) "))
 
-
 #processamento
 #kmTotal = (comprimento / 1000) * nvoltas
 # consumoTotal = kmTotal / consumo 
