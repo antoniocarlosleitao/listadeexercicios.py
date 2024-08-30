@@ -2,12 +2,13 @@
 escrevê-los em ordem crescente.'''
 
 #entrada
+
 valores = []
 valores.append(int(input("Digite o primeiro valor: ")))  #5
 valores.append(int(input("Digite o segundo valor: ")))   #2
 valores.append(int(input("Digite o terceiro valor: ")))  #7
 
-'''#processamento
+
 resposta = ""
 valorTemp = 0
 
@@ -39,7 +40,9 @@ if(valor2 > valor3):
     valor3 = resposta[1]
      # valorTemp = valor3
     # valor3 = valor2
-    # valor2 = valorTemp'''
+
+    # valor2 = valorTemp
 
 #saída
 print(valores)
+
