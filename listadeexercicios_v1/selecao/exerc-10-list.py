@@ -2,11 +2,13 @@
 escrevê-los em ordem crescente.'''
 
 #entrada
-valor1 = int(input("Digite o primeiro valor: "))  #5
-valor2 = int(input("Digite o segundo valor: "))   #2
-valor3 = int(input("Digite o terceiro valor: "))  #7
 
-#processamento
+valores = []
+valores.append(int(input("Digite o primeiro valor: ")))  #5
+valores.append(int(input("Digite o segundo valor: ")))   #2
+valores.append(int(input("Digite o terceiro valor: ")))  #7
+
+
 resposta = ""
 valorTemp = 0
 
@@ -38,7 +40,9 @@ if(valor2 > valor3):
     valor3 = resposta[1]
      # valorTemp = valor3
     # valor3 = valor2
+
     # valor2 = valorTemp
 
 #saída
-print(valor1, valor2, valor3)
+print(valores)
+
